@@ -1,0 +1,10 @@
+module.exports = {
+  presets: [
+    '@babel/preset-env',      // Поддержка современного JavaScript
+    '@babel/preset-react',    // Поддержка JSX синтаксиса
+    '@babel/preset-typescript' // Поддержка TypeScript
+  ],
+};
+preset: 'ts-jest',
+testEnvironment: 'node',
+
